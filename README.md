@@ -2,7 +2,7 @@
 
 A crowdsale contract that can be deployed as-is.
 
-The price of the token will change based on token availability using a rational function: When only 50% of baseAvailability tokens are on the contract, the price will double. At 75% it will quadruple, and so on.
+The price of the token is based on its availability: When only 50% of baseAvailability tokens are on the contract, the price will double. At 75% it will quadruple, and so on.
 
 ## Flatten
 
