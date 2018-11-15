@@ -27,5 +27,5 @@ constructor(IERC20 _token, uint256 _baseRate, uint256 _baseAvailability) public 
 
 Assume an ERC20 contract at `0x123` with `decimals = 6`, and you want to sell 5000 tokens with a base rate of 20 tokens per ether. You would construct the contract with `token = 0x123`, `baseRate = 20 * 10 ** 6` and `baseAvailability = 5000 * 10 ** 6`.
 
-After deployment, transfer the `baseAvailability` amount of tokens to the contract to make it available for sale.
+After deployment, transfer the `baseAvailability` amount of tokens to the contract to make them available for sale.
 
