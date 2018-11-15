@@ -32,7 +32,7 @@ contract RationallyPricedCrowdsale is Ownable {
   * @dev Constructor
   * @param _token The address of the token to be sold
   * @param _baseRate How many tokens for 1 ether? The `currentRate` will go down as tokens are being sold.
-  * @param _baseAvailability The amount of tokens (in the token-native unit) that will be available for sale.
+  * @param _baseAvailability The amount of tokens that should be considered "100%" availability.
   */
   constructor(IERC20 _token, uint256 _baseRate, uint256 _baseAvailability) public {
     token = _token;
