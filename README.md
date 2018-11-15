@@ -7,7 +7,7 @@ The price of the token is based on its availability: When only 50% of baseAvaila
 ## Flatten
 
 ```
-./solidityFlattener.pl --mainsol=RationallyPricedCrowdsale.sol
+./solidityFlattener.pl --mainsol=RationaldCrowdsale.sol
 ```
 
 ## Deployment
