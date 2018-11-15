@@ -6,7 +6,7 @@ import "../openzeppelin-solidity/contracts/ownership/Ownable.sol";
 import "../openzeppelin-solidity/contracts/token/ERC20/IERC20.sol";
 
 
-contract RationallyPricedCrowdsale is Ownable {
+contract RationalCrowdsale is Ownable {
   using SafeMath for uint256;
 
   IERC20 public token;
