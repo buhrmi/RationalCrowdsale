@@ -1,4 +1,4 @@
-# RationallyPricedCrowdsale
+# RationalCrowdsale
 
 A crowdsale contract that can be deployed as-is.
 
