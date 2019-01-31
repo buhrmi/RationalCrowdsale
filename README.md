@@ -17,7 +17,7 @@ You need to provide 3 constructor parameters when deploying the contract:
 ```solidity
 /**
 * @param _token The address of the token to be sold
-* @param _baseRate How many tokens for 1 ether? The `currentRate()` function will go down as tokens are being sold.
+* @param _baseRate How many tokens for 1 ether? The `currentRate()` function will return lower values as tokens are being sold.
 * @param _baseAvailability The amount of tokens that should be considered "100%" availability.
 */
 constructor(IERC20 _token, uint256 _baseRate, uint256 _baseAvailability) public {
